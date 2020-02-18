@@ -3,11 +3,16 @@
 
 Dzisiaj lekcja poświęcona security.
 Zanieczyszczanie danych.
-Jedna z prostszych i często stosowanych form ataku na datasety. Dlaczego zanieczyszamy dane? Ponieważ nie chcemy przrowadzać ataku na sam model, ale już wytrenować go na zniekształconych danych.
+Jedna z prostszych i często stosowanych form ataku na datasety. Dlaczego zanieczyszamy dane? 
+Ponieważ nie chcemy przrowadzać ataku na sam model, ale już wytrenować go na zniekształconych danych.
 Przykłady:
-- fałszowanie danych medycznych, dotyczących skuteczności działania leku - firma konkurencyjna uzyskała dostęp do źle zabespieczonych danych firmy A i dzięki metodzie poising data zmodyfikowała zawartość testowego datasetu, co wpłynęło na późniejsze dalsze badania firmy A, 
-- fałszowanie danych urzędu transportu ze znakami drogowymi, zanieczyszenie wpłynęło na wyuczenie modelu samochodu autonomicznego, który, źle nauczył się interpretacji znaku STOP
-- baza danych osób poszukiwanych, podyfikacja zbioru, a dokładnie jej zniekształcenie, nieprawidłowo wytrenowały model, który miał dopasować zdjęcia treningowe do bazy wzorcowej
+- fałszowanie danych medycznych, dotyczących skuteczności działania leku - firma konkurencyjna uzyskała dostęp 
+  do źle zabespieczonych danych firmy A i dzięki metodzie poising data zmodyfikowała zawartość testowego datasetu, 
+  co wpłynęło na późniejsze dalsze badania firmy A, 
+- fałszowanie danych urzędu transportu ze znakami drogowymi, zanieczyszenie wpłynęło na wyuczenie modelu samochodu 
+  autonomicznego, który, źle nauczył się interpretacji znaku STOP
+- baza danych osób poszukiwanych, podyfikacja zbioru, a dokładnie jej zniekształcenie, nieprawidłowo wytrenowały model, 
+  który miał dopasować zdjęcia treningowe do bazy wzorcowej
 
 
 I wiele innych
@@ -24,7 +29,8 @@ https://keras.io/
 
 
 
-Po dokładnym zapoznaniu się z wyżej wymienionymi materiałami, można przystąpic od interpretacji kodu. Zobaczyć jakie warstwy zostają dodane i jak wpływają na dokładność predykcji.
+Po dokładnym zapoznaniu się z wyżej wymienionymi materiałami, można przystąpic od interpretacji kodu. 
+Zobaczyć jakie warstwy zostają dodane i jak wpływają na dokładność predykcji.
 Spróbuj zmodyfikować model i uzyskać wynik lepszy niż 93%
 Odpowiedzieć na pytanie:
 - jak zabezpieczyć swoje datasety, żeby uniknąć modyfikacji?
